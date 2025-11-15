@@ -81,8 +81,6 @@ public class LivroService {
                 }
 
                 livroRepository.save(livro);
-            }else{
-                throw new EntityNotFound("Livro de ID: " + livroID + " não foi encontrado!");
             }
     }
 
